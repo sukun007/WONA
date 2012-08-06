@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+  <head>
+    <link type="text/css" rel="stylesheet" href="galleria/themes/classic/galleria.classic.css">
+      <style type = "text/css">
+        body {background-color : black; margin-left : auto; margin-right : auto }
+        #header {color : white; height : 300 px; width: 500 px; margin-left : auto; margin-right : auto}
+        #galleria {height : 700px; width : 800px;margin-right : auto; margin-left : auto}
+        p { color : white }
+
+      </style>
+      
+      
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+      <script src="galleria/galleria-1.2.7.min.js"></script>
+    </head>
+    <body>
+      <div id = 'header' align = "center">
+        <h1> Watch Out News Agency </h1>
+      </div>
+      
+      <div id="galleria" align = "center">
+            
+            <img src="teasers/bat.jpg" height="400" />
+            <img src="teasers/cos.jpg" height="400" />
+            <img src="teasers/awesome poster.jpg" height="400" />
+            <img src="teasers/tang.jpg" height="400" />
+            
+            
+      </div>
+      <div align = 'center'>
+        <p> Coming Soon... </p>
+      </div>
+        <script>
+            Galleria.loadTheme('galleria/themes/classic/galleria.classic.min.js');
+            Galleria.run('#galleria');
+        </script>
+    </body>
+</html>
